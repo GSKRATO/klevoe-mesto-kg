@@ -108,27 +108,28 @@
         </div>
     </section>
 
-    <section id="menu" class="py-16 container mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center text-blue-custom mb-12 uppercase">Наше Меню</h2>
-        <div class="grid md:grid-cols-3 gap-6">
-            <div class="p-6 bg-white shadow rounded-xl">
-                <h4 class="text-blue-custom font-bold border-b-2 border-yellow-custom mb-4 text-xl">Салаты</h4>
-                <div class="flex justify-between mb-2"><span>Зеленый берег</span><span>299 сом</span></div>
-                <div class="flex justify-between mb-2"><span>Свежий фирменный</span><span>299 сом</span></div>
+    <section id="menu" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-blue-custom mb-12 uppercase tracking-widest">Меню нашего кафе</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="bg-gray-100 p-2 rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <img src="menu1.jpg" alt="Меню страница 1" class="rounded-lg w-full h-auto cursor-pointer" onclick="window.open(this.src)">
+                    <p class="text-center mt-2 text-gray-500 text-sm">Нажмите, чтобы увеличить</p>
+                </div>
+                
+                <div class="bg-gray-100 p-2 rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <img src="menu2.jpg" alt="Меню страница 2" class="rounded-lg w-full h-auto cursor-pointer" onclick="window.open(this.src)">
+                    <p class="text-center mt-2 text-gray-500 text-sm">Нажмите, чтобы увеличить</p>
+                </div>
             </div>
-            <div class="p-6 bg-white shadow rounded-xl">
-                <h4 class="text-blue-custom font-bold border-b-2 border-yellow-custom mb-4 text-xl">Горячее</h4>
-                <div class="flex justify-between mb-2"><span>Форель (жареная, 1кг)</span><span>1299 сом</span></div>
-                <div class="flex justify-between mb-2"><span>Форель х/к (1кг)</span><span>1499 сом</span></div>
-                <div class="flex justify-between mb-2"><span>Куурдак (1кг)</span><span>1399 сом</span></div>
-            </div>
-            <div class="p-6 bg-white shadow rounded-xl">
-                <h4 class="text-blue-custom font-bold border-b-2 border-yellow-custom mb-4 text-xl">Бургеры</h4>
-                <div class="flex justify-between mb-2"><span>Бургер "Клёвый"</span><span>449 сом</span></div>
-                <div class="flex justify-between mb-2"><span>Бургер с форелью</span><span>449 сом</span></div>
+
+            <div class="text-center mt-10">
+                <a href="White Restaurant Food Menu Template.pdf" target="_blank" class="inline-block bg-yellow-custom text-blue-custom font-bold py-3 px-8 rounded-full border-2 border-blue-custom hover:bg-blue-custom hover:text-white transition">
+                    <i class="fas fa-file-pdf mr-2"></i> Скачать меню в PDF
+                </a>
             </div>
         </div>
-        <p class="text-center mt-8 text-gray-600 italic">И многое другое в нашем уютном кафе!</p>
     </section>
 
     <footer id="contacts" class="bg-gray-900 text-white py-12">
@@ -153,3 +154,4 @@
 
 </body>
 </html>
+
